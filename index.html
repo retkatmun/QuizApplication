@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz App</title>
+</head>
+
+<body>
+    <section>
+        <h1>Quiz Application</h1>
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <h2>The first version of HTML was written by?</h2>
+            <input type="radio" id="q1a1" name="q1" value="correct">
+            <label for="q1a1">Tim Berners-Lee</label><br>
+            <input type="radio" id="q1a2" name="q1" value="wrong">
+            <label for="q1a2">Charles Babbage</label><br>
+            <input type="radio" id="q1a3" name="q1" value="wrong">
+            <label for="q1a3">Bill Gates and Paul Allen</label><br>
+
+            <!-- Question 2 -->
+            <h2>HTML stands for?</h2>
+            <input type="radio" id="q2a1" name="q2" value="correct">
+            <label for="q2a1">Hyper Text Markup Language</label><br>
+            <input type="radio" id="q2a2" name="q2" value="wrong">
+            <label for="q2a2">Hyperlink And Text Markup Language</label><br>
+            <input type="radio" id="q2a3" name="q2" value="wrong">
+            <label for="q2a3">Home Tools Markup Language</label><br>
+
+            <!-- Question 3 -->
+            <h2>Choose the correct HTML element for the largest heading?</h2>
+            <input type="radio" id="q3a1" name="q3" value="wrong">
+            <label for="q3a1">&lt;heading&gt;</label><br>
+            <input type="radio" id="q3a2" name="q3" value="wrong">
+            <label for="q3a2">&lt;h2&gt;</label><br>
+            <input type="radio" id="q3a3" name="q3" value="correct">
+            <label for="q3a3">&lt;h1&gt;</label><br>
+
+            <!-- Question 4 -->
+            <h2>What is the correct HTML element for inserting a line break?</h2>
+            <input type="radio" id="q4a1" name="q4" value="wrong">
+            <label for="q4a1">&lt;break&gt;</label><br>
+            <input type="radio" id="q4a2" name="q4" value="correct">
+            <label for="q4a2">&lt;br&gt;</label><br>
+            <input type="radio" id="q4a3" name="q4" value="wrong">
+            <label for="q4a3">&lt;lb&gt;</label><br>
+
+            <!-- Question 5 -->
+            <h2>Choose the correct HTML element to define important text?</h2>
+            <input type="radio" id="q5a1" name="q5" value="wrong">
+            <label for="q5a1">&lt;imp&gt;</label><br>
+            <input type="radio" id="q5a2" name="q5" value="wrong">
+            <label for="q5a2">&lt;i&gt;</label><br>
+            <input type="radio" id="q5a3" name="q5" value="correct">
+            <label for="q5a3">&lt;strong&gt;</label><br>
+
+            <!-- Question 6 -->
+            <h2>Choose the correct HTML element to define emphasized text?</h2>
+            <input type="radio" id="q6a1" name="q6" value="wrong">
+            <label for="q6a1">&lt;emphasized&gt;</label><br>
+            <input type="radio" id="q6a2" name="q6" value="correct">
+            <label for="q6a2">&lt;em&gt;</label><br>
+            <input type="radio" id="q6a3" name="q6" value="wrong">
+            <label for="q6a3">&lt;e&gt;</label><br>
+
+            <!-- Question 7 -->
+            <h2>What is the correct HTML for creating a hyperlink?</h2>
+            <input type="radio" id="q7a1" name="q7" value="wrong">
+            <label for="q7a1">&lt;a name=&quot;retkat.netlify&quot;&gt; My portfolio &lt;/a&gt;</label><br>
+            <input type="radio" id="q7a2" name="q7" value="wrong">
+            <label for="q7a2">&lt;a url=&quot;http://retkat.netlify.app/contact&quot;&gt;&lt;/a&gt;</label><br>
+            <input type="radio" id="q7a3" name="q7" value="correct">
+            <label for="q7a3">&lt;a href=&quot;http://retkat.netlify.app&quot;&gt;My portfolio&lt;/a&gt;</label><br>
+
+            <!-- Question 8 -->
+            <h2>Which character is used to indicate an end tag?</h2>
+            <input type="radio" id="q8a1" name="q8" value="wrong">
+            <label for="q8a1">*</label><br>
+            <input type="radio" id="q8a2" name="q8" value="wrong">
+            <label for="q8a2">&gt;</label><br>
+            <input type="radio" id="q8a3" name="q8" value="correct">
+            <label for="q8a3">/</label><br>
+
+            <!-- Question 9 -->
+            <h2>How can you open a link in a new tab/browser window?</h2>
+            <input type="radio" id="q9a1" name="q9" value="correct">
+            <label for="q9a1">&lt;a href=&quot;url&quot; target=&quot;_blank&quot;&gt;</label><br>
+            <input type="radio" id="q9a2" name="q9" value="wrong">
+            <label for="q9a2">&lt;a href=&quot;url&quot; new&gt;</label><br>
+            <input type="radio" id="q9a3" name="q9" value="wrong">
+            <label for="q9a3">&lt;a href=&quot;url&quot; target=&quot;_new&quot;&gt;</label><br>
+
+            <!-- Question 10 -->
+            <h2>Inline elements are normally displayed without starting a new line.</h2>
+            <input type="radio" id="q10a1" name="q10" value="correct">
+            <label for="q10a1">True</label><br>
+            <input type="radio" id="q10a2" name="q10" value="wrong">
+            <label for="q10a2">False</label><br>
+
+            <!-- Submit Button -->
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+            <a href="javascript: location.reload();">reload this page</a>
+        </form>
+        <p style="margin-top: 20px;">
+        <div id="result"></div>
+        </p>
+
+     
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

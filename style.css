@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2, 58, 23);
+    background: linear-gradient(90deg, rgb(12, 33, 221) 0%, rgb(9, 1, 22) 28%, rgb(17, 2, 51) 73%);
+    color: white;
+}
+form{
+   /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+label{
+   color: rgb(255, 255, 255);
+   font-weight: 100;
+   font-size: 20px;
+   font-family: "Archivo Black", sans-serif;
+}
+button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(7, 87, 4);
+    color: white;
+    font-size: 18px;
+}
+h2{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: "Protest Guerrilla", sans-serif;
+    word-spacing: 1.9;
+    font-size: 30px;
+}
+input{
+    cursor: pointer;
+}
+#result{
+    text-align: center;
+   width: 30%;
+   font-size: 20px;
+   font-weight: 600;
+   margin: auto;
+   border-radius: 20px;
+   padding: 20px;
+   color: rgb(255, 255, 255);
+}
+a{
+margin-left: 40px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+a:hover{
+    background-color: rgb(204, 200, 200);
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
